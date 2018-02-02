@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	padding: 10vh 0;
+	color: #0020c4;
+	background-color: #FF5733;
+	font-size: 50px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	margin: 2vw;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+} 
+ .stopwatch {
+ 	margin: 5vh 0;
+ }
+
+ .button {
+ 	background-color: #0020c4;
+ 	padding: 2vh 2vw;
+ 	border-radius: 5px;
+ }
