@@ -1,9 +1,9 @@
 function pad0(value) {
-    let result = value.toString();
-    if (result.length < 2) {
-        result = '0' + result;
-    }
-    return result;
+	let result = value.toString();
+	if (result.length < 2) {
+		result = "0" + result;
+	}
+	return result;
 }
 
 class Stopwatch extends React.Component {
@@ -83,12 +83,16 @@ class Stopwatch extends React.Component {
 	render() {
 		return (
 			<div>
-			  <nav>
-			    <button className="button" onClick={this.start.bind(this)}>Start</button>
-			    <button className="button" onClick={this.stop.bind(this)}>Stop</button>
-			  </nav>
-			  <div className="stopwatch">{this.getFormattedTime()}</div>
-			  <ul className="results"></ul>
+				<nav>
+					<button className="button" onClick={this.start.bind(this)}>
+						Start
+					</button>
+					<button className="button" onClick={this.stop.bind(this)}>
+						Stop
+					</button>
+				</nav>
+				<div className="stopwatch">{this.getFormattedTime()}</div>
+				<ul className="results" />
 			</div>
 		);
 	}
